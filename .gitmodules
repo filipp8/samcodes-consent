@@ -1,0 +1,6 @@
+[submodule "project/include/googleads-consent-sdk-ios"]
+	path = project/include/googleads-consent-sdk-ios
+	url = https://github.com/filipp8/googleads-consent-sdk-ios.git
+[submodule "dependencies/googleads-consent-sdk-android"]
+	path = dependencies/googleads-consent-sdk-android
+	url = https://github.com/filipp8/googleads-consent-sdk-android.git
