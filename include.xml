@@ -3,8 +3,10 @@
 	<ndll name="samcodesconsent" if="ios" />
 
 	<section if="ios">
+        <dependency path="project/include/PersonalizedAdConsent.framework" />
+		<assets path="project/include/PersonalizedAdConsent.bundle" />
 		<!-- The consent page bundle needs to be manually drag-dropped into the Xcode project, including it as a dependency didn't work when I tried that... -->
-		<ndll name="libsamcodesconsent" />
+		<ndll name="samcodesconsent" />
 		<ios linker-flags="-v" />
 	</section>
 	

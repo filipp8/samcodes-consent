@@ -9,6 +9,7 @@
 	<files id="iphone">
 		<compilerflag value="-IiPhone/include"/>
 		<compilerflag value="-Iinclude"/>
+		<compilerflag value="-Iinclude/googleads-consent-sdk-ios/PersonalizedAdConsent"/>
 		<compilerflag value="-Iinclude/googleads-consent-sdk-ios/PersonalizedAdConsent/PersonalizedAdConsent" />
 		
 		<file name="iphone/SamcodesConsent.mm"/>
