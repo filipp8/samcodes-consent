@@ -4,7 +4,7 @@
 
 	<section if="ios">
         <dependency path="project/include/PersonalizedAdConsent.framework" />
-		<assets path="project/include/PersonalizedAdConsent.bundle" />
+		<template path="project/include/PersonalizedAdConsent.bundle" rename="templates/resources/PersonalizedAdConsent.bundle" />
 		<!-- The consent page bundle needs to be manually drag-dropped into the Xcode project, including it as a dependency didn't work when I tried that... -->
 		<ndll name="samcodesconsent" />
 		<ios linker-flags="-v" />
